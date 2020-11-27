@@ -22,6 +22,7 @@ part 'my_career.dart';
 const oneYearExperience = '1 year of experience';
 const twinapp = 'Twinapp';
 const hero = 'Hero App';
+const elPuntAvui = 'El Punt Avui';
 
 abstract class MyExperienceAsAFlutterDeveloper {
     bool WasBeeingAFlutterDeveloperAtInteractiuImpactedMyCareer();
@@ -40,6 +41,7 @@ class MyExperienceAsAFlutterDeveloperImplementation implements MyExperienceAsAFl
     
     @override
     bool WasBeeingAFlutterDeveloperAtInteractiuImpactedMyCareer() {
+        _myCareerRepository.addProjectDone(twinapp);
         final bool myFirstAttemptWithFlutterSucceeded = _myCareerRepository.isPublishedAndWorking(twinapp);
         final didILovedIt = true;
         _myCareerRepository.addExperience(oneYearExperience);
@@ -48,6 +50,7 @@ class MyExperienceAsAFlutterDeveloperImplementation implements MyExperienceAsAFl
     
     @override
     void IsAFlutterDeveloperFreelancerAtIDelub(){
+        _myCareerRepository.addProjectDone(elPuntAvui);
         final today = DateTime.now();
         final startDateAsFreelance = DateTime(2020, 04, 01);
         final int numberOfYears = today.difference(startDateAsFreelance).inYears;
@@ -57,6 +60,7 @@ class MyExperienceAsAFlutterDeveloperImplementation implements MyExperienceAsAFl
     
     @override
     Future<bool> willBeCTOAndCoFounderAtBehero() async {
+        _myCareerRepository.addProjectDone(hero);
         final myLastProjectSucceeded = await _myCareerRepository.isPublishedAndWorking(hero);
         _myCareerRepository.canLevelUp(myLastProjectSucceeded);
         return myLastProjectSucceeded;
