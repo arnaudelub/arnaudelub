@@ -35,12 +35,12 @@ extension FlutterDeveloper on Flutter {
 
 ##### Links
 
-[Twinapp](https://www.twinapp.net/),
-[ElPuntAvui Android](https://play.google.com/store/apps/details?id=cat.epa.quiosc.epan&gl=ES),
-[ElPuntAvui iOS](https://apps.apple.com/us/app/el-punt-avui-nacional-v2/id1505758634),
-[Hero App](https://behero.app),
-[flutter_fullpdfview on github](https://github.com/arnaudelub/flutter_fullpdfview),
-[flutter_fullpdfview on pub.dev](https://pub.dev/packages/flutter_fullpdfview) => [![Pub Version](https://img.shields.io/pub/v/flutter_fullpdfview)](https://pub.dev/packages/flutter_fullpdfview)
+- [Twinapp](https://www.twinapp.net/),
+- [ElPuntAvui Android](https://play.google.com/store/apps/details?id=cat.epa.quiosc.epan&gl=ES),
+- [ElPuntAvui iOS](https://apps.apple.com/us/app/el-punt-avui-nacional-v2/id1505758634),
+- [Hero App](https://behero.app),
+- [flutter_fullpdfview on github](https://github.com/arnaudelub/flutter_fullpdfview),
+- [flutter_fullpdfview on pub.dev](https://pub.dev/packages/flutter_fullpdfview) => [![Pub Version](https://img.shields.io/pub/v/flutter_fullpdfview)](https://pub.dev/packages/flutter_fullpdfview)
 
 <!--
 **arnaudelub/arnaudelub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
