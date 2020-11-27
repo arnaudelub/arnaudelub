@@ -1,4 +1,45 @@
-### Hi there 👋
+```dart
+library arnaudelub;
+
+export 'welcome/my_name_is_arnaud_delubac';
+export 'fully_remote_worker/as_freelance/at_idelub';
+export 'cross_plaform_developer/flutter';
+export 'experienced_in_ecommerce';
+export 'vim_4_ever';
+
+```
+
+```dart
+part 'idelub.com'
+```
+
+```dart
+extension FlutterDeveloper on Flutter {
+    List<String> get developedApp => [
+        Twinapp,
+        ElPuntAvui
+        Hero App,
+        Ecohint];
+    List<String> get developedPackages => [flutter_fullpdfview];
+}
+```
+
+#### dependencies:
+
+```yaml
+- Flutter: 2+
+- Python: 6+
+- Angular: 3+
+- Java: 1+
+```
+
+##### Links
+
+[Twinapp](https://www.twinapp.net/),
+[ElPuntAvui Android](https://play.google.com/store/apps/details?id=cat.epa.quiosc.epan&gl=ES),
+[ElPuntAvui iOS](https://apps.apple.com/us/app/el-punt-avui-nacional-v2/id1505758634),
+[Hero App](https://behero.app),
+[flutter_fullpdfview](https://github.com/arnaudelub/flutter_fullpdfview)
 
 <!--
 **arnaudelub/arnaudelub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
