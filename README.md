@@ -14,7 +14,7 @@ export 'my_os/linux_4_ever/manjaro';
 ```
 
 ```dart
-part 'idelub.com'
+part 'my_career.dart';
 ```
 
 ```dart
