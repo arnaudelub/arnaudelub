@@ -1,4 +1,5 @@
 ## Hello World 👋!
+Uncle bob said "Clean code reads like well-written prose", so why not reading my README.md like you read clean code
 
 ```dart
 library arnaudelub;
@@ -7,7 +8,8 @@ export 'welcome/my_name_is_arnaud_delubac';
 export 'fully_remote_worker/as_freelance/at_idelub';
 export 'cross_plaform_developer/flutter';
 export 'experienced_in_ecommerce';
-export 'vim_4_ever';
+export 'my_editor/vim_4_ever/nvim';
+export 'my_os/linux_4_ever/manjaro';
 
 ```
 
@@ -16,7 +18,52 @@ part 'idelub.com'
 ```
 
 ```dart
-extension FlutterDeveloper on Flutter {
+
+const oneYearExperience = '1 year of experience';
+const twinapp = 'Twinapp';
+const hero = 'Hero App';
+
+abstract class MyExperienceAsAFlutterDeveloper {
+    bool WasBeeingAFlutterDeveloperAtInteractiuImpactedMyCareer();
+    void IsAFlutterDeveloperFreelancerAtIDelub();
+    Future<void> willBeCTOAndCoFounderAtBehero();
+}
+
+/*
+ * Quick Note, this class is a lazy singleton, but to avoid any missunderstanding,
+ * i am neither lazy nor single!
+**/
+@LazySingleton(as: MyExperienceAsAFlutterDeveloper)
+class MyExperienceAsAFlutterDeveloperImplementation implements MyExperienceAsAFlutterDeveloper {
+    final MyCareerRepository _myCareerRepository;
+    const MyExperienceAsAFlutterDeveloperImplementation(this._myCareerRepository);
+    
+    @override
+    bool WasBeeingAFlutterDeveloperAtInteractiuImpactedMyCareer() {
+        final bool myFirstAttemptWithFlutterSucceeded = _myCareerRepository.isPublishedAndWorking(twinapp);
+        final didILovedIt = true;
+        _myCareerRepository.addExperience(oneYearExperience);
+        return myFirstAttemptWithFlutterSucceed && didILovedIt;
+    }
+    
+    @override
+    void IsAFlutterDeveloperFreelancerAtIDelub(){
+        final today = DateTime.now();
+        final startDateAsFreelance = DateTime(2020, 04, 01);
+        final int numberOfYears = today.difference(startDateAsFreelance).inYears;
+        final year = "year${numberOfYears > 1 ? 's' : ''}";
+        _myCareerRepository.addExperience("$numberOfYears $year of experience");
+    }
+    
+    @override
+    Future<bool> willBeCTOAndCoFounderAtBehero() async {
+        final myLastProjectSucceeded = await _myCareerRepository.isPublishedAndWorking(hero);
+        _myCareerRepository.canLevelUp(myLastProjectSucceeded);
+        return myLastProjectSucceeded;
+    }
+}
+
+extension MyFlutterAppsAndPackages on Flutter {
     List<String> get developedApp => [
         Twinapp,
         ElPuntAvui
@@ -26,13 +73,14 @@ extension FlutterDeveloper on Flutter {
 }
 ```
 
-#### dependencies:
+#### My pubspec.yaml:
 
 ```yaml
-- Flutter: 2+
-- Python: 6+
-- Angular: 3+
-- Java: 1+
+dependencies:
+    - Flutter: 2+
+    - Python: 6+
+    - Angular: 3+
+    - Java: 1+
 ```
 
 ##### Links
