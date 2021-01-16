@@ -25,7 +25,7 @@ const findo = 'Findo';
 const elPuntAvui = 'El Punt Avui';
 
 abstract class MyExperienceAsAFlutterDeveloper {
-    bool WasBeeingAFlutterDeveloperAtInteractiuImpactedMyCareer();
+    bool WasAFlutterDeveloperAtInteractiuImpactedMyCareer();
     void IsAFlutterDeveloperFreelancerAtIDelub();
     Future<void> willBeCTOAndCoFounderAtFindo();
 }
@@ -40,7 +40,7 @@ class MyExperienceAsAFlutterDeveloperImplementation implements MyExperienceAsAFl
     const MyExperienceAsAFlutterDeveloperImplementation(this._myCareerRepository);
     
     @override
-    bool WasBeeingAFlutterDeveloperAtInteractiuImpactedMyCareer() {
+    bool WasAFlutterDeveloperAtInteractiuImpactedMyCareer() {
         _myCareerRepository.addProjectDone(twinapp);
         final bool myFirstAttemptWithFlutterSucceeded = _myCareerRepository.isPublishedAndWorking(twinapp);
         final didILovedIt = true;
