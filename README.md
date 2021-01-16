@@ -21,13 +21,13 @@ part 'my_career.dart';
 
 const oneYearExperience = '1 year of experience';
 const twinapp = 'Twinapp';
-const hero = 'Hero App';
+const findo = 'Findo';
 const elPuntAvui = 'El Punt Avui';
 
 abstract class MyExperienceAsAFlutterDeveloper {
     bool WasBeeingAFlutterDeveloperAtInteractiuImpactedMyCareer();
     void IsAFlutterDeveloperFreelancerAtIDelub();
-    Future<void> willBeCTOAndCoFounderAtBehero();
+    Future<void> willBeCTOAndCoFounderAtFindo();
 }
 
 /*
@@ -59,8 +59,8 @@ class MyExperienceAsAFlutterDeveloperImplementation implements MyExperienceAsAFl
     }
     
     @override
-    Future<bool> willBeCTOAndCoFounderAtBehero() async {
-        _myCareerRepository.addProjectDone(hero);
+    Future<bool> willBeCTOAndCoFounderAtFindo() async {
+        _myCareerRepository.addProjectDone(findo);
         final myLastProjectSucceeded = await _myCareerRepository.isPublishedAndWorking(hero);
         _myCareerRepository.canLevelUp(myLastProjectSucceeded);
         return myLastProjectSucceeded;
@@ -71,7 +71,7 @@ extension MyFlutterAppsAndPackages on Flutter {
     List<String> get developedApp => [
         Twinapp,
         ElPuntAvui
-        Hero App,
+        Findo,
         Ecohint];
     List<String> get developedPackages => [flutter_fullpdfview];
 }
@@ -92,7 +92,7 @@ dependencies:
 - [Twinapp](https://www.twinapp.net/),
 - [ElPuntAvui Android](https://play.google.com/store/apps/details?id=cat.epa.quiosc.epan&gl=ES),
 - [ElPuntAvui iOS](https://apps.apple.com/us/app/el-punt-avui-nacional-v2/id1505758634),
-- [Hero App](https://behero.app),
+- [Findo](https://findoapp.es),
 - [flutter_fullpdfview on github](https://github.com/arnaudelub/flutter_fullpdfview),
 - [flutter_fullpdfview on pub.dev](https://pub.dev/packages/flutter_fullpdfview) => [![Pub Version](https://img.shields.io/pub/v/flutter_fullpdfview)](https://pub.dev/packages/flutter_fullpdfview)
 
