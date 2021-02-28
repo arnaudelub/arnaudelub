@@ -69,6 +69,7 @@ class MyExperienceAsAFlutterDeveloperImplementation implements MyExperienceAsAFl
 
 extension MyFlutterAppsAndPackages on Flutter {
     List<String> get developedApp => [
+        Reliqium,
         Twinapp,
         ElPuntAvui
         Findo,
@@ -88,7 +89,7 @@ dependencies:
 ```
 
 ##### Links
-
+- [Reliqium](https://www.reliqium.com/),
 - [Twinapp](https://www.twinapp.net/),
 - [ElPuntAvui Android](https://play.google.com/store/apps/details?id=cat.epa.quiosc.epan&gl=ES),
 - [ElPuntAvui iOS](https://apps.apple.com/us/app/el-punt-avui-nacional-v2/id1505758634),
