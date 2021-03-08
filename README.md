@@ -23,10 +23,11 @@ const oneYearExperience = '1 year of experience';
 const twinapp = 'Twinapp';
 const findo = 'Findo';
 const elPuntAvui = 'El Punt Avui';
+const reliqium = 'Reliqium';
 
 abstract class MyExperienceAsAFlutterDeveloper {
-    bool WasAFlutterDeveloperAtInteractiuImpactedMyCareer();
-    void IsAFlutterDeveloperFreelancerAtIDelub();
+    bool wasAFlutterDeveloperAtInteractiuImpactedMyCareer();
+    void isAFlutterDeveloperFreelancerAtIDelub();
     Future<void> willBeCTOAndCoFounderAtFindo();
 }
 
@@ -40,7 +41,7 @@ class MyExperienceAsAFlutterDeveloperImplementation implements MyExperienceAsAFl
     const MyExperienceAsAFlutterDeveloperImplementation(this._myCareerRepository);
     
     @override
-    bool WasAFlutterDeveloperAtInteractiuImpactedMyCareer() {
+    bool wasAFlutterDeveloperAtInteractiuImpactedMyCareer() {
         _myCareerRepository.addProjectDone(twinapp);
         final bool myFirstAttemptWithFlutterSucceeded = _myCareerRepository.isPublishedAndWorking(twinapp);
         final didILovedIt = true;
@@ -49,7 +50,7 @@ class MyExperienceAsAFlutterDeveloperImplementation implements MyExperienceAsAFl
     }
     
     @override
-    void IsAFlutterDeveloperFreelancerAtIDelub(){
+    void isAFlutterDeveloperFreelancerAtIDelub(){
         _myCareerRepository.addProjectDone(elPuntAvui);
         final today = DateTime.now();
         final startDateAsFreelance = DateTime(2020, 04, 01);
