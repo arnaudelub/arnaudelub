@@ -97,6 +97,8 @@ dependencies:
 - [Findo](https://findoapp.es),
 - [flutter_fullpdfview on github](https://github.com/arnaudelub/flutter_fullpdfview),
 - [flutter_fullpdfview on pub.dev](https://pub.dev/packages/flutter_fullpdfview) => [![Pub Version](https://img.shields.io/pub/v/flutter_fullpdfview)](https://pub.dev/packages/flutter_fullpdfview)
+- [csv picker button](https://github.com/arnaudelub/flutter_packages/tree/main/csv_picker_button),
+- [csv picker button on pub.dev](https://pub.dev/packages/csv_picker_button) => [![Pub Version](https://img.shields.io/pub/v/csv_picker_button)](https://pub.dev/packages/csv_picker_button)
 
 <!--
 **arnaudelub/arnaudelub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
