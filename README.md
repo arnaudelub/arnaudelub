@@ -75,7 +75,7 @@ extension MyFlutterAppsAndPackages on Flutter {
         ElPuntAvui
         Findo,
         Ecohint];
-    List<String> get developedPackages => [flutter_fullpdfview];
+    List<String> get developedPackages => [flutter_fullpdfview, csv_picker_button, flutter_firebase_aut_facade];
 }
 ```
 
@@ -97,8 +97,9 @@ dependencies:
 - [Findo](https://findoapp.es),
 - [flutter_fullpdfview on github](https://github.com/arnaudelub/flutter_fullpdfview),
 - [flutter_fullpdfview on pub.dev](https://pub.dev/packages/flutter_fullpdfview) => [![Pub Version](https://img.shields.io/pub/v/flutter_fullpdfview)](https://pub.dev/packages/flutter_fullpdfview)
-- [csv picker button](https://github.com/arnaudelub/flutter_packages/tree/main/csv_picker_button),
+- [flutter packages on Github](https://github.com/arnaudelub/flutter_packages),
 - [csv picker button on pub.dev](https://pub.dev/packages/csv_picker_button) => [![Pub Version](https://img.shields.io/pub/v/csv_picker_button)](https://pub.dev/packages/csv_picker_button)
+- [flutter_firebase_auth_faacade on pub.dev](https://pub.dev/packages/flutter_firebase_auth_facade) => [![Pub Version](https://img.shields.io/pub/v/flutter_firebase_auth_facade)](https://pub.dev/packages/flutter_firebase_auth_facade)
 
 <!--
 **arnaudelub/arnaudelub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
