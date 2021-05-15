@@ -101,17 +101,24 @@ dependencies:
 - [csv picker button on pub.dev](https://pub.dev/packages/csv_picker_button) => [![Pub Version](https://img.shields.io/pub/v/csv_picker_button)](https://pub.dev/packages/csv_picker_button)
 - [flutter_firebase_auth_faacade on pub.dev](https://pub.dev/packages/flutter_firebase_auth_facade) => [![Pub Version](https://img.shields.io/pub/v/flutter_firebase_auth_facade)](https://pub.dev/packages/flutter_firebase_auth_facade)
 
-<!--
-**arnaudelub/arnaudelub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## My articles
 
-Here are some ideas to get you started:
+|               |               |
+| ------------- | ------------- |
+| <a href="https://medium.com/flutter-espa%C3%B1a/dart-isolate-y-flutter-compute-b8b23896e6b8"> <img src="https://miro.medium.com/max/1667/1*ezz3rf8fNGrX4drJBr0VUQ.jpeg" height="200" align="right"/> </a>  |  **Dart isolate and Flutter Compute** </br>Give your main thread som breath! |
+| <a href="https://medium.com/flutter-espa%C3%B1a/flutter-y-nfc-unleashed-98238c85a1e2"> <img src="https://miro.medium.com/max/1500/1*Qicsn8Y8n9pOYPhF8KONeA.png" height="200" align="right"/> </a>  |  **Flutter and NFC** </br> Control you NFC chip with flutter |
+| <a href="https://medium.com/flutter-espa%C3%B1a/flutter-y-firebase-login-todo-lo-que-necesitas-saber-b1deada16f0f"> <img src="https://miro.medium.com/max/8000/1*NO6fXIYHapLHHPSDMs8SFQ.png" height="200" align="right"/> </a>  |  **Flutter and Firebase Login** </br> All you need to know about Firebase authentication with Flutter (Spanish only) |
+| <a href="https://arnaudelub.medium.com/usar-debouncetime-de-rxdart-y-bloc-para-esperar-a-que-un-usuario-termine-de-escribir-147c91243329"> <img src="https://miro.medium.com/max/7000/1*qAo7JxuD9adRUqREtqnFEA.jpeg" height="200" align="right"/> </a>  |  **debounceTime from RxDart and Bloc** </br> Use Rxdart's debounceTime with Bloc (En, Fr, Es) |
+| <a href="https://arnaudelub.medium.com/flutter-bloc-y-firestore-stream-la-combinaci%C3%B3n-perfecta-si-se-usa-de-la-manera-correcta-33fc8a64bcca"> <img src="https://miro.medium.com/max/6912/1*z9gsZMQKdzRGXVxSq7TNKw.jpeg" height="200" align="right"/> </a>  |  **Flutter, Bloc and Firestore stream** </br> Controle Firestore's stream with Bloc |
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+
+## My open source projects
+
+|               |               |
+| ------------- | ------------- |
+| <a href="https://github.com/arnaudelub/flutterence">  Flutterence </a>  |  **Open source Project, so it can evolve thanks to the community and for the community!** </br> Anyone who want to contribute is welcome to contact me |
+| <a href="https://github.com/arnaudelub/flutter_packages/tree/main/csv_picker_button"> csv_picker_button </a> [![Pub Version](https://img.shields.io/pub/v/csv_picker_button)](https://pub.dev/packages/csv_picker_button) |  **Load and read you CSV!** </br> Parse your CSV data from a simple button |
+| <a href="https://github.com/arnaudelub/flutter_packages/tree/main/flutter_firebase_auth_facade"> firebase auth facade </a> [![Pub Version](https://img.shields.io/pub/v/flutter_firebase_auth_facade)](https://pub.dev/packages/flutter_firebase_auth_facade)  |  **Login with Firebase!** </br>All the power from firebase authentication in a simple plugin! |
+
+<!--| <a href="https://github.com/arnaudelub/flutter_issues_app">  Flutter issue app </a>  |  **Check and filter Flutter issue!|-->
