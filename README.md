@@ -24,11 +24,18 @@ const twinapp = 'Twinapp';
 const findo = 'Findo';
 const elPuntAvui = 'El Punt Avui';
 const reliqium = 'Reliqium';
+const k8s = 'Kubernetes';
+const docker = 'docker';
+const azureCloud = 'Azure Cloud';
+const typescript = 'typescript';
 
 abstract class MyExperienceAsAFlutterDeveloper {
     bool wasAFlutterDeveloperAtInteractiuImpactedMyCareer();
+    @deprecated
     void isAFlutterDeveloperFreelancerAtIDelub();
+    @deprecated
     Future<void> willBeCTOAndCoFounderAtFindo();
+    void isAJuniorArchitectAtNexplore();
 }
 
 /*
@@ -66,6 +73,18 @@ class MyExperienceAsAFlutterDeveloperImplementation implements MyExperienceAsAFl
         _myCareerRepository.canLevelUp(myLastProjectSucceeded);
         return myLastProjectSucceeded;
     }
+    
+    @override
+    void isAJuniorArchitectAtNexplore() {
+        _myCareerRepository.addNewTechStack(k8s)..addNewTechstack(docker)
+            ..addNewTechStack(azureCloud)..addNewTechStack(typescript)
+        final startDateAsFullStack = DateTime(2021, 03, 01);
+        final startDateAsJrArchitect = DateTime(2022, 09, 01);
+        final int numberOfYears = today.difference(startDateAsJrArchitect).inYears;
+        final year = "year${numberOfYears > 1 ? 's' : ''}";
+        _myCareerRepository.addExperience("1 year as fullstack (TS, Flutter, React)")
+            ..addExperience("$numberOfYears $year of experience as Jr Architect");
+    }
 }
 
 extension MyFlutterAppsAndPackages on Flutter {
@@ -77,16 +96,30 @@ extension MyFlutterAppsAndPackages on Flutter {
         Ecohint];
     List<String> get developedPackages => [flutter_fullpdfview, csv_picker_button, flutter_firebase_aut_facade];
 }
+
+extension MyLearningPath on AzureCloud {
+    List<String> get earnedCertificates => [];
+    List<String> get certsPass => [
+        AZ-900-Azure-Fundamental,
+        AZ-204-Azure-developer,
+        AZ-104-Azure-administrator-associate,
+        AZ-400-Azure-devops-engineer
+    ];
+}
 ```
 
 #### My pubspec.yaml:
 
 ```yaml
 dependencies:
-    - Flutter: 2+
+    - Typescript: 2+
+    - Flutter: 4+
     - Python: 6+
     - Angular: 3+
     - Java: 1+
+    - Kubernetes: 1+
+    - Docker: 1+
+    - Azure Cloud: 1+
 ```
 
 ##### Links
